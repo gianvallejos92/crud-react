@@ -1,0 +1,45 @@
+{
+    "modal": {
+      "showModal": false,
+      "title": "",
+      "isUpdate": false
+    },
+    "curMovie": {
+        "id": null,
+        "title": "",
+        "director": "",
+        "genero": "",
+        "year": ""
+    },
+    "lastId": 4,
+    "movies": [
+        {
+            "id": 1,
+            "title": "End Game",
+            "director": "Hermanos X",
+            "genero": "accion",
+            "year": "2019"
+        },
+        {
+            "id": 2,
+            "title": "End Game",
+            "director": "Hermanos X",
+            "genero": "accion",
+            "year": "2019"
+        },
+        {
+            "id": 3,
+            "title": "End Game",
+            "director": "Hermanos X",
+            "genero": "accion",
+            "year": "2019"
+        },
+        {
+            "id": 4,
+            "title": "End Game",
+            "director": "Hermanos X",
+            "genero": "accion",
+            "year": "2019"
+        }
+    ]
+}
