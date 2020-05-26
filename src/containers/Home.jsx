@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { refreshCurrentMovie } from '../actions';
-import '../assets/styles/App.styl';
+import '../assets/styles/Home.styl';
 import Header from '../components/Header';
 import Wrapper from '../components/Wrapper';
 import FormModal from './FormModal';
@@ -11,7 +11,7 @@ import ButtonWrapper from '../components/ButtonWrapper';
 import Button from '../components/Button';
 import Footer from '../components/Footer';
 
-const App = (props) => {
+const Home = (props) => {
   const { movies, modal, lastId } = props;
   const tHeadData = ['Title', 'Director', 'Gender', 'Year'];
   const formData = [
@@ -72,4 +72,4 @@ const mapStateToProps = (state) => {
   };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default connect(mapStateToProps, mapDispatchToProps)(Home);
